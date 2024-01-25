@@ -16,14 +16,12 @@ a {
     text-shadow: 4px 4px 4px black;
 }
 
-.webpage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .cover {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url('assets/magCover.PNG');
-    background-size: cover;
+    background-size: 100%;
     width: 500px;
     height: 600px;
     margin: 100px;
@@ -32,20 +30,24 @@ a {
 }
 .empty {
     height:180px;
+    flex: 2;
 }
 
 .coverText {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     color: white;
     gap: 2px;
     padding-left: 15px;
     width: 200px;
+    height: 100%;
 }
 
 .whoIs {
     font-family: 'Buenard', serif;
     font-size: 15px;
+    flex:1;
 }
 .firstName {
     margin-top: -30px;
@@ -70,6 +72,7 @@ h3 {
 }
 
 .sneakPeak {
+    flex:1;
     margin-top: -35px;
     font-family: 'Shrikhand', serif;
     line-height: 12px;
@@ -77,6 +80,7 @@ h3 {
 
 .motivation {
     margin-top: -15px;
+    flex: 1;
 }
 
 .motText {
@@ -89,6 +93,7 @@ h3 {
 
 
 .exclusive{
+    flex: 1;
     font-family: 'Shrikhand', serif;
     font-style: italic;
     width: 300px;
