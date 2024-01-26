@@ -172,3 +172,7 @@ h2 {
 .blinking {
     animation: blink 1s infinite; /* Adjust the duration as needed */
 }
+
+.blinking2 {
+    animation: blink 3s infinite;
+}
