@@ -1,4 +1,6 @@
 body {
+    background-color: goldenrod;
+    padding: 20px;
     background-image: url("assets/overhead.jpg");
     background-repeat: no-repeat;
     background-size:cover;
